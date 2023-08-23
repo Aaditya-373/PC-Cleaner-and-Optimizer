@@ -1,1 +1,2 @@
 # PC-Cleaner-and-Optimizer
+This application will be able to speed up a user's PC by clearing user/system temp files,clearing all prefetch(junk files that accumulate when applications are opened) and running a full Disk Cleanup on the system,thus clearing a significant amount of space on the drive.Deleting prefetch files is pretty harmless, and Windows will create them again the next time you open apps on your machine.
