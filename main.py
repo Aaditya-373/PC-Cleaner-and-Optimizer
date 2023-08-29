@@ -2,8 +2,6 @@ import os
 import shutil
 import time
 import subprocess
-import customtkinter
-
 
 file_clear = input("(PC Cleaner will clear all temp files,temporary internet files,DirectX Shader Cache,Delivery optimization files,Downloaded Program Files,and finally clear the Recycle Bin:)\nIf you would like to clear your PC, type 'clear',otherwise type 'exit':\n")
 
@@ -51,7 +49,7 @@ if file_clear == 'clear':
 
         except PermissionError as e:
             print(f"PermissionError: {e} - Skipped file: {file}")
-            time.sleep(1)
+            time.sleep(0.25)
     print()
     print()
     print("Temp folder cleared.")
@@ -73,7 +71,7 @@ if file_clear == 'clear':
 
         except PermissionError as e:
             print(f"PermissionError: {e} - Skipped file: {file}")
-            time.sleep(1)
+            time.sleep(0.25)
     print()
     print()
     print("Prefetch cleared.")
